@@ -79,6 +79,7 @@ article {
 
 strong {
   font-weight: $semiBoldWeight;
+  color: #D04255
 }
 
 a {
@@ -184,7 +185,7 @@ a {
     }
 
     p > strong {
-      color: var(--dark);
+      color: #D04255;//var(--dark);
     }
   }
 
@@ -643,4 +644,8 @@ iframe.pdf {
 .tag-link {
   color:rgba(99, 110, 255, 0.6);
   font-size: 0.85rem;
+}
+
+em {
+  color: #9386C8;
 }
